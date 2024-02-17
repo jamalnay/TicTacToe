@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="about">A minimalist game crafted with Kotlin and Jetpack Compose, boasting a unique image-free design for seamless experience.
+        \n Animations are coming soon.\n You can check the code and rate the app in the links above.</string>
+</resources>
