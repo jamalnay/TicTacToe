@@ -24,6 +24,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.lamda.tictactoe.portrait
 import com.lamda.tictactoe.ui.AppScreens
 import com.lamda.tictactoe.ui.game.CardType
 import com.lamda.tictactoe.ui.game.components.GameLogo
@@ -37,9 +38,11 @@ import kotlinx.coroutines.delay
 @Composable
 fun SplashScreen(
     navController: NavController,
-    hideSystemBar: ()-> Unit
+    hideSystemBar: ()-> Unit,
+    mode:String
 ) {
     hideSystemBar()
+    val logoFontSize = if(mode == portrait) 32 else 64
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -76,12 +79,15 @@ fun SplashScreen(
                         MicroXO(type = o, Modifier.weight(1f))
                     }
                 }
-                GameLogo(
-                    fontSize = 32,
-                    modifier = Modifier
-                        .align(Alignment.CenterHorizontally)
-                        .padding(top = 16.dp)
-                )
+                Row(
+                    modifier = Modifier.fillMaxSize(),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    GameLogo(
+                        fontSize = logoFontSize
+                    )
+                }
             }
         }
 

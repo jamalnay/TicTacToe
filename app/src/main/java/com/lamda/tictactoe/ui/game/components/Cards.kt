@@ -191,7 +191,7 @@ fun EmptyCard(
 
             drawCircle(
                 color = BlueShade80,
-                radius = (xWidth/2)-48,
+                radius = (xWidth/2)-24,
                 style = Stroke(xHeight)
             )
             rotate(45f){
