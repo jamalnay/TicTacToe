@@ -1,7 +1,7 @@
-Privacy Policy
+### Privacy Policy
 Effective Date: 17/01/2025
 
-TicaTacToe ("the App") is a simple Tic Tac Toe game created for entertainment purposes. This privacy policy explains how we handle user data.
+**TicaTacToe** ("the App") is a simple Tic Tac Toe game created for entertainment purposes. This privacy policy explains how we handle user data.
 
 Data Collection
 We do not collect, store, or share any personal or non-personal data from users. The App does not access your device's storage, location, contacts, or any other sensitive information.
@@ -14,4 +14,4 @@ We may update this privacy policy from time to time. Any changes will be posted 
 
 Contact Us
 If you have any questions about this privacy policy, please contact us at:
-[Your Contact Email]
+nail.djamal@gmail.com
