@@ -188,6 +188,14 @@ fun MainMenuScreen(
                     modifier = Modifier
                         .padding(top = 20.dp)
                 )
+                Text(
+                    modifier = Modifier.padding(top=4.dp),
+                    text = "1v1 Game",
+                    textAlign = TextAlign.Center,
+                    fontFamily = masterFamily,
+                    fontSize = 14.sp,
+                    color = Color.White
+                )
 
                 Spacer(modifier = Modifier.padding(top = 40.dp))
 

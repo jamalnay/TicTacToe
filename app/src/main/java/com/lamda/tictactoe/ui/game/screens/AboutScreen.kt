@@ -139,18 +139,6 @@ fun AboutScreen(
 
                         Row {
                             TextButton(
-                                modifier = Modifier.padding(end = 8.dp),
-                                onClick = { }
-                            ) {
-                                Text(
-                                    text = "Rate Us",
-                                    textAlign = TextAlign.Center,
-                                    fontFamily = masterFamily,
-                                    fontSize = 16.sp,
-                                    color = BlueShade90
-                                )
-                            }
-                            TextButton(
                                 modifier = Modifier.padding(start = 8.dp),
                                 onClick = {
                                     context.startActivity(githubIntent)
@@ -225,18 +213,6 @@ fun AboutScreen(
                 Spacer(modifier = Modifier.padding(top = 12.dp))
 
                 Row {
-                    TextButton(
-                        modifier = Modifier.padding(end = 8.dp),
-                        onClick = { }
-                    ) {
-                        Text(
-                            text = "Rate Us",
-                            textAlign = TextAlign.Center,
-                            fontFamily = masterFamily,
-                            fontSize = 16.sp,
-                            color = BlueShade90
-                        )
-                    }
 
                     TextButton(
                         modifier = Modifier.padding(start = 8.dp),
